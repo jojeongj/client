@@ -29,7 +29,7 @@ export default function Layout({
         {children}
         {/* 푸터(메뉴) */}
         {isFooter && (
-          <div className="absolute bottom-0 w-full h-[100px] grid grid-cols-5 gap-2 p-2 border-t-2 border-neutral-300">
+          <div className="z-10 bg-white absolute bottom-0 w-full h-[100px] grid grid-cols-5 gap-2 p-2 border-t-2 border-neutral-300">
             {menuItems.map((item) => (
               <Link to={item.url} key={item.title}>
                 <div className="w-full h-full flex flex-col justify-center items-center space-y-1">
