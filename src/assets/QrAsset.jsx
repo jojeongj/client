@@ -1,9 +1,9 @@
-import { BsQrCode } from "react-icons/bs";
+import { LuQrCode } from "react-icons/lu";
 
 export default function QrAsset({ isSelected }) {
   return (
     <div className="w-full h-full">
-      {isSelected ? <BsQrCode size="20" /> : <BsQrCode size="20" />}
+      {isSelected ? <LuQrCode size="24" /> : <LuQrCode size="24" />}
     </div>
   );
 }
