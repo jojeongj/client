@@ -15,7 +15,7 @@ export default function Layout({
       <div className="relative max-w-sm w-full bg-gray-50">
         {/* 헤더 */}
         {isHeader && (
-          <div className="w-full h-20 border-b border-neutral-300/50 grid grid-cols-3 items-center">
+          <div className="z-10 bg-white absolute inset-0 w-full h-20 border-b border-neutral-300/50 grid grid-cols-3 items-center">
             {/* 1 */}
             <div className="text-gray-400">{canGoBack && <GoBack />}</div>
             {/* 2 */}

@@ -14,7 +14,7 @@ export default function Tour() {
   }, []);
 
   return (
-    <Layout isFooter>
+    <Layout isHeader isFooter canGoBack>
       <div className="w-full h-full" id="map"></div>
     </Layout>
   );
