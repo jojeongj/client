@@ -6,6 +6,7 @@ import Tour from "./app/Tour";
 import Qr from "./app/Qr";
 import Fav from "./app/Fav";
 import Menu from "./app/Menu";
+import TourDetail from "./app/TourDetail";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "menu",
         element: <Menu />,
+      },
+      {
+        path: "tour/:id",
+        element: <TourDetail />,
       },
     ],
   },
